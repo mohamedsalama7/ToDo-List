@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon"  href="images/icon.png">
+  <script defer src="popup.js-main/docs/popup.js"></script>
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <div class="animation">
+    <div style="--i:1"></div>
+    <div style="--i:2"></div>
+    <div style="--i:3"></div>
+    <div style="--i:4"></div>
+    <div style="--i:5"></div>
+    <div style="--i:6"></div>
+    <div style="--i:7"></div>
+    <div style="--i:8"></div>
+    <div style="--i:9"></div>
+    <div style="--i:10"></div>
+  </div>
+  <div class="container">
+    <div class="todo-app">
+      <h2>To-Do LIst <img src="images/icon.png" alt="icon-to-do-list"> </h2>
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Add Your Text">
+        <button onclick="addTask()">Add</button>
+      </div>
+      <ul id="list-container">
+      </ul>
+    </div>
+  </div>
+
+
+</body>
+</html>
