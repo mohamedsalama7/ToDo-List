@@ -59,3 +59,9 @@ function showTask(){
 }
 
 window.onload = showTask()
+
+
+let span = document.querySelector(".date");
+let year = new Date 
+span.innerHTML = year.getFullYear();
+
